@@ -33,14 +33,14 @@ ul {
 
   }
   body{
-      background-image: url(/img/scenery.jpg)
+      background-image: url(/travel/img/scenery.jpg)
   }
   .Heading{
     font-weight: bold;
     color: white;
     font-size: 30px;
     font-style: italic;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     text-align: center;
   }
   .centered{
@@ -49,3 +49,9 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  @media screen and (min-width: 480px) {
+    body {
+        background-color: ;
+        color: :
+    }
+}
